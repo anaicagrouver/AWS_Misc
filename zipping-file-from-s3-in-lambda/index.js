@@ -6,11 +6,11 @@ var fs = require('fs');
 const params = {
   files: [
     {
-      fileName: '1.jpg',
-      key: 'coverart/1.jpg'
+      fileName: 'FILE NAME',
+      key: 'PREFIX/FILE NAME'
     }
   ],
-  zippedFileKey: 'zip/zipped-file-key.zip'
+  zippedFileKey: 'zip/zipped.zip'
 }; 
 
 exports.handler = async event => {
