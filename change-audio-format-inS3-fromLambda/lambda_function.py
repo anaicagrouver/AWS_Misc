@@ -21,6 +21,8 @@ def lambda_handler(event, context):
     
     fname = input_file.split('.')[0]
     #the below code uses EFS, tmp also can be used
+    
+    #empty EFS
     for i in os.listdir('/mnt/access'):
         os.remove('/mnt/access/' + i); 
 
